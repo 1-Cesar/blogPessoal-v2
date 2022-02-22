@@ -1,0 +1,8 @@
+#img-bg {
+	background-image: url(../../../../Fundamentos_Web_Generation_Brasil/assets/img/Ragnarok_Knight.jpg);
+
+	min-height: 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
