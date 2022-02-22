@@ -1,0 +1,8 @@
+#img-bg {
+	background-image: url(../../../../Aulas_Praticas/assets/imagens/Gatuno.png);
+
+	height: 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
