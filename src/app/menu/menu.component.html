@@ -6,10 +6,10 @@
   <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
     <ul class="navbar-nav d-flex align-items-center">
       <li class="nav-item active">
-        <img src="https://playragnarokonlinebr.com/img/classes/aprendiz/Personagens.png" alt="" class="img-fluid rounded-circle" height="60px" width="60px">
+        <img src="{{foto}}" alt="Imagem do usuario" class="img-fluid rounded-circle" height="60px" width="60px">
       </li>
       <li class="nav-item pl-3">
-        <p class="m-0 font-weight-bold text-white fs-16">Nome do Usuário</p>
+        <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}</p>
       </li>
       <li class="nav-item pl-3">
         <p class="text-white fs-16 m-0"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></p>
@@ -17,7 +17,7 @@
     </ul>
     <ul class="navbar-nav ml-auto d-flex align-items-center">
       <li class="nav-item pl-3">
-        <a class="m-0 font-weight-bold text-white fs-16">Sair</a>
+        <a (click)='sair()' class="m-0 font-weight-bold text-white fs-16">Sair</a>
       </li>
     </ul>
   </div>
